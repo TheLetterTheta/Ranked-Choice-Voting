@@ -1,0 +1,2 @@
+name = "ranked-choice-voting"
+assets = [ "assets/*", "pkg/*" ]

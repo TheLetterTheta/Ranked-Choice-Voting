@@ -1,0 +1,15 @@
+[package]
+name = "ranked-choice-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-files = { version = "0.6" }
+actix-web = { version = "4.4.0", features = ["macros"] }
+chrono = "0.4.31"
+serde = { version = "1.0.190", features = ["derive"] }
+shuttle-actix-web = "0.31.0"
+shuttle-runtime = "0.31.0"
+shuttle-shared-db = { version = "0.31.0", features = ["postgres"] }
+sqlx = { version = "0.7.2", features = ["postgres", "runtime-tokio-native-tls", "chrono"] }
+tokio = "1.26.0"
